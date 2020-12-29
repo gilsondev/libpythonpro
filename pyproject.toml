@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "libpythonpro"
+version = "0.1.0"
+description = "Lib de estudos Python PRO"
+authors = ["Gilson Filho <me@gilsondev.in>"]
+license = "AGPL3"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
