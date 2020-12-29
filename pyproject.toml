@@ -6,7 +6,7 @@ authors = ["Gilson Filho <me@gilsondev.in>"]
 license = "AGPL3"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.6"
 requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
